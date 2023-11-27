@@ -1,0 +1,15 @@
+
+class Vehicle:
+    color= "white"
+    def __init__(self, name, max_speed, mileage):
+        self.name = name
+        self.max_speed = max_speed
+        self.mileage = mileage
+class Bus(Vehicle):
+   pass
+class Car(Vehicle) :
+    pass
+camaio = Bus("volvo" , 120 , 12)
+print(camaio.color , "my name ", camaio.name , "speed " , camaio.max_speed , "mileage" , camaio.mileage)
+C = Car("audi rs7", 320 , 8)
+print(C.color , "my name ", C.name , "speed " , C.max_speed , "mileage" , C.mileage)
